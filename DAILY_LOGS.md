@@ -22,3 +22,23 @@
 | **Klaus** | Fiz o setup do Node.js + Express + EJS, criei o `package.json` e o arquivo `schema.sql` com as tabelas `projects` e `activities`. | Implementar os endpoints `POST /projects` e `GET /projects`. | Precisei pesquisar a lib `better-sqlite3` — resolvido. |
 | **William** | Escolhi o Bootstrap 5 como framework de estilo, criei a estrutura base das views EJS (header/footer parciais). | Montar o formulário de novo projeto. | Nenhum. |
 | **Luca** | Li as histórias de usuário e montei um checklist de testes manuais para cada critério de aceitação. | Aguardar o primeiro endpoint ficar pronto para já começar a testar. | Nenhum. |
+
+---
+
+## Daily #2 — Terça-feira, 16/06/2026
+
+**Tipo:** Presencial  
+**Participantes:** Elizabeth Fernandes Pires ✅ | Renan Dorio da Silva ✅ | Klaus Marrer ✅ | William de Oliveira Santos ✅ | Luca Vinicius Dourado Pessoa ✅  
+**Impedimentos reportados:** 1 (resolvido na hora)
+
+### Registro
+
+| Membro | O que fiz ontem? | O que farei hoje? | Impedimentos? |
+|--------|------------------|-------------------|---------------|
+| **Elizabeth** | Acompanhei o repositório, revisei os commits do dia 1. | Garantir que todos façam PRs para `develop` e não diretamente para `main`. | Nenhum. |
+| **Renan** | Estive disponível para responder dúvidas de requisito. Confirmei que "prazo" é uma data simples (sem hora). | Preparar rascunho dos slides da Review. | Nenhum. |
+| **Klaus** | Implementei `POST /projects` e `GET /projects` com validação básica. Banco SQLite criado e funcionando. | Começar os endpoints de atividades: `POST /activities` e `GET /activities/:projectId`. | Dúvida sobre relacionamento do banco — Renan esclareceu que cada atividade pertence a um único projeto. ✅ |
+| **William** | Formulário de novo projeto pronto no EJS, conectado ao endpoint do Klaus. | Montar a view de listagem de projetos (dashboard). | Nenhum. |
+| **Luca** | Testei o endpoint `POST /projects` com dados válidos e inválidos (campo vazio). Encontrei bug: campos em branco não retornavam erro. | Reportar o bug ao Klaus e continuar testes da listagem. | Bug reportado como issue #3 no GitHub. |
+
+**🐛 Bug registrado:** Issue #3 — Validação ausente em campos obrigatórios de projeto. Atribuído ao Klaus.
