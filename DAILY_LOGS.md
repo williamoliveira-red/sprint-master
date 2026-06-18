@@ -60,3 +60,21 @@
 | **Klaus** | Corrigi a validação (Issue #3 fechada ✅). Implementei `POST /activities`. | Implementar `PATCH /activities/:id/status` e lógica de % no GET /projects. | Nenhum. |
 | **William** | Dashboard (listagem de projetos) pronto, exibindo nome e prazo de cada projeto. | Adicionar barra de progresso ao card do projeto (aguardando % do Klaus). | Dependência do endpoint do Klaus — combinado de ele entregar hoje. |
 | **Luca** | Testei a criação de atividades. Encontrei problema: não havia feedback visual ao salvar. | Levantar requisitos visuais mínimos (mensagem de sucesso/erro) e discutir com William. | Nenhum. |
+
+---
+
+## Daily #4 — Quinta-feira, 18/06/2026
+
+**Tipo:** Remoto (Discord)  
+**Participantes:** Elizabeth Fernandes Pires ✅ | Renan Dorio da Silva ✅ | Klaus Marrer ✅ | William de Oliveira Santos ✅ | Luca Vinicius Dourado Pessoa ✅  
+**Impedimentos reportados:** Nenhum
+
+### Registro
+
+| Membro | O que fiz ontem? | O que farei hoje? | Impedimentos? |
+|--------|------------------|-------------------|---------------|
+| **Elizabeth** | Atualizei o backlog. Percebi que T-20 e T-21 (editar projeto, excluir atividade) estão em risco de não entrar. Alertei o time. | Discutir com Renan se essas tarefas entram ou ficam para o backlog futuro. | Nenhum. |
+| **Renan** | Revisou US-02 e confirmou que edição de status de atividade é mais importante que exclusão. | Alinhar com a equipe que T-20 e T-21 são backlog futuro. Prioridade é qualidade do que já existe. | Nenhum. |
+| **Klaus** | Implementei `PATCH /activities/:id/status` e o cálculo de `%_concluido` no endpoint de projetos. | Fazer revisão geral do código antes de abrir PR. | Nenhum. |
+| **William** | Adicionei alertas Bootstrap de sucesso/erro nas views (pedido do Luca). | Integrar a barra de progresso com o dado de % vindo do Klaus. | Nenhum. |
+| **Luca** | Retestei criação de projeto após fix. Tudo OK. Montei planilha de casos de teste formalizados. | Testar fluxo completo: criar projeto → adicionar atividade → mudar status → checar %. | Nenhum. |
