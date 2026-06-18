@@ -42,3 +42,21 @@
 | **Luca** | Testei o endpoint `POST /projects` com dados válidos e inválidos (campo vazio). Encontrei bug: campos em branco não retornavam erro. | Reportar o bug ao Klaus e continuar testes da listagem. | Bug reportado como issue #3 no GitHub. |
 
 **🐛 Bug registrado:** Issue #3 — Validação ausente em campos obrigatórios de projeto. Atribuído ao Klaus.
+
+---
+
+## Daily #3 — Quarta-feira, 17/06/2026
+
+**Tipo:** Presencial  
+**Participantes:** Elizabeth Fernandes Pires ✅ | Renan Dorio da Silva ✅ | Klaus Marrer ✅ | William de Oliveira Santos ✅ | Luca Vinicius Dourado Pessoa ✅  
+**Impedimentos reportados:** Nenhum
+
+### Registro
+
+| Membro | O que fiz ontem? | O que farei hoje? | Impedimentos? |
+|--------|------------------|-------------------|---------------|
+| **Elizabeth** | Revisei os commits e fiz merge do PR do Klaus após revisão. | Atualizar o SPRINT_BACKLOG.md com status das tarefas. | Nenhum. |
+| **Renan** | Validei o formulário de criação de projeto no ambiente local. | Rever os critérios de aceitação da US-02 (atividades). | Nenhum. |
+| **Klaus** | Corrigi a validação (Issue #3 fechada ✅). Implementei `POST /activities`. | Implementar `PATCH /activities/:id/status` e lógica de % no GET /projects. | Nenhum. |
+| **William** | Dashboard (listagem de projetos) pronto, exibindo nome e prazo de cada projeto. | Adicionar barra de progresso ao card do projeto (aguardando % do Klaus). | Dependência do endpoint do Klaus — combinado de ele entregar hoje. |
+| **Luca** | Testei a criação de atividades. Encontrei problema: não havia feedback visual ao salvar. | Levantar requisitos visuais mínimos (mensagem de sucesso/erro) e discutir com William. | Nenhum. |
