@@ -78,3 +78,23 @@
 | **Klaus** | Implementei `PATCH /activities/:id/status` e o cálculo de `%_concluido` no endpoint de projetos. | Fazer revisão geral do código antes de abrir PR. | Nenhum. |
 | **William** | Adicionei alertas Bootstrap de sucesso/erro nas views (pedido do Luca). | Integrar a barra de progresso com o dado de % vindo do Klaus. | Nenhum. |
 | **Luca** | Retestei criação de projeto após fix. Tudo OK. Montei planilha de casos de teste formalizados. | Testar fluxo completo: criar projeto → adicionar atividade → mudar status → checar %. | Nenhum. |
+
+---
+
+## Daily #5 — Sexta-feira, 19/06/2026 *(Manhã — Alinhamento pré-Review)*
+
+**Tipo:** Remoto (Discord)  
+**Participantes:** Elizabeth Fernandes Pires ✅ | Renan Dorio da Silva ✅ | Klaus Marrer ✅ | William de Oliveira Santos ✅ | Luca Vinicius Dourado Pessoa ✅  
+**Impedimentos reportados:** 1 (não bloqueante)
+
+### Registro
+
+| Membro | O que fiz ontem? | O que farei hoje? | Impedimentos? |
+|--------|------------------|-------------------|---------------|
+| **Elizabeth** | Alinhei com Renan sobre escopo reduzido. Registrei decisão no backlog. | Preparar pauta da Review e facilitar a sessão. | Nenhum. |
+| **Renan** | Confirmou escopo final com a equipe. Finalizou rascunho dos slides. | Revisar slides com Elizabeth e narrar a demo na Review. | Nenhum. |
+| **Klaus** | Abriu PR com os endpoints finais. Merge do PR de backend realizado. Branch `develop` estável. | Revisar código com William e fechar PRs pendentes. Dar suporte técnico durante a demo. | Nenhum. |
+| **William** | Integrou a barra de progresso. Dashboard funcional com % real. | Ajustes visuais finais (responsividade mobile) antes da Review. | Percebeu que Bootstrap não estava carregando via CDN em ambiente sem internet — usou versão local. ⚠️ (contornado) |
+| **Luca** | Testou fluxo completo. Encontrou inconsistência: % não atualizava sem recarregar a página. Avaliado como comportamento esperado (`wontfix`). | Completar todos os casos de teste manuais e operar a aplicação durante a demo. | Issue #7 fechada como `wontfix`. |
+
+**🐛 Issue #7:** % de conclusão não atualiza sem reload da página após mudança de status. → Avaliado como comportamento esperado (redirect padrão de formulário). Fechado como `wontfix` nesta sprint.
