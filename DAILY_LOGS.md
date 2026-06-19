@@ -98,3 +98,31 @@
 | **Luca** | Testou fluxo completo. Encontrou inconsistência: % não atualizava sem recarregar a página. Avaliado como comportamento esperado (`wontfix`). | Completar todos os casos de teste manuais e operar a aplicação durante a demo. | Issue #7 fechada como `wontfix`. |
 
 **🐛 Issue #7:** % de conclusão não atualiza sem reload da página após mudança de status. → Avaliado como comportamento esperado (redirect padrão de formulário). Fechado como `wontfix` nesta sprint.
+
+---
+
+## Daily #6 — Sexta-feira, 19/06/2026 *(Tarde — Pós-Review + Retrospectiva)*
+
+**Tipo:** Remoto (Discord — participação voluntária)  
+**Participantes:** Elizabeth Fernandes Pires ✅ | Klaus Marrer ✅ | William de Oliveira Santos ✅ | Luca Vinicius Dourado Pessoa ✅ | Renan Dorio da Silva ❌ (avisou ausência com antecedência)  
+**Impedimentos reportados:** Nenhum
+
+### Registro (resumido)
+
+- **Elizabeth:** Acompanhou progresso. Confirmou que o backlog está 90% concluído.
+- **Klaus:** Merge do PR de backend realizado. Branch `develop` estável.
+- **William:** Finalizou ajustes de responsividade. Commit final de CSS.
+- **Luca:** Completou todos os casos de teste manuais. Sem bugs críticos abertos.
+- **Renan:** Ausente — slides já estavam prontos desde quinta.
+
+---
+
+## 📊 Resumo de Participação
+
+| Membro | Dailies Realizadas | Ausências | Impedimentos Reportados |
+|--------|--------------------|-----------|-------------------------|
+| Elizabeth Fernandes Pires | 6/6 | 0 | 0 |
+| Renan Dorio da Silva | 5/6 | 1 (justif.) | 0 |
+| Klaus Marrer | 6/6 | 0 | 1 (resolvido D1) |
+| William de Oliveira Santos | 6/6 | 0 | 1 (contornado D5) |
+| Luca Vinicius Dourado Pessoa | 6/6 | 0 | 2 (virou issue) |
